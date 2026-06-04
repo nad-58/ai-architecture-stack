@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="950" viewBox="0 0 1200 950">
+<style>text{font-family:Arial,sans-serif;fill:#0f172a}.title{font-size:40px;font-weight:700}.h{font-size:21px;font-weight:700}.t{font-size:16px}.q{fill:#eff6ff;stroke:#2563eb;stroke-width:2}.a{fill:#ecfdf5;stroke:#059669;stroke-width:2}.d{fill:#fff7ed;stroke:#f97316;stroke-width:2}.line{stroke:#2563eb;stroke-width:3;fill:none;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#2563eb"/></marker></defs>
+<rect width="1200" height="950" fill="white"/>
+<text x="600" y="60" text-anchor="middle" class="title">AI Architecture Decision Flowchart</text>
+<rect x="450" y="100" width="300" height="70" rx="14" class="q"/><text x="600" y="132" text-anchor="middle" class="h">What are you trying to do?</text><text x="600" y="155" text-anchor="middle" class="t">Start from the task, then choose the layer</text>
+<path d="M600 170 V220" class="line"/>
+<rect x="120" y="230" width="260" height="80" rx="14" class="a"/><text x="250" y="265" text-anchor="middle" class="h">Develop algorithm</text><text x="250" y="290" text-anchor="middle" class="t">Layer 5: Model and Learning</text>
+<rect x="470" y="230" width="260" height="80" rx="14" class="a"/><text x="600" y="265" text-anchor="middle" class="h">Use documents/data</text><text x="600" y="290" text-anchor="middle" class="t">Layer 4: Data and Knowledge</text>
+<rect x="820" y="230" width="260" height="80" rx="14" class="a"/><text x="950" y="265" text-anchor="middle" class="h">Build user tool</text><text x="950" y="290" text-anchor="middle" class="t">Layer 7: Application</text>
+<path d="M600 220 H250 V230" class="line"/><path d="M600 220 V230" class="line"/><path d="M600 220 H950 V230" class="line"/>
+<rect x="120" y="380" width="260" height="80" rx="14" class="a"/><text x="250" y="415" text-anchor="middle" class="h">Need tool use?</text><text x="250" y="440" text-anchor="middle" class="t">Layer 6: Orchestration</text>
+<rect x="470" y="380" width="260" height="80" rx="14" class="a"/><text x="600" y="415" text-anchor="middle" class="h">Need deployment?</text><text x="600" y="440" text-anchor="middle" class="t">Layer 3: Infrastructure</text>
+<rect x="820" y="380" width="260" height="80" rx="14" class="a"/><text x="950" y="415" text-anchor="middle" class="h">Need edge hardware?</text><text x="950" y="440" text-anchor="middle" class="t">Layers 1, 2 and 3</text>
+<path d="M250 310 V380" class="line"/><path d="M600 310 V380" class="line"/><path d="M950 310 V380" class="line"/>
+<rect x="260" y="540" width="680" height="120" rx="16" class="d"/><text x="600" y="580" text-anchor="middle" class="h">Apply cross-layer checks</text><text x="600" y="610" text-anchor="middle" class="t">Quality • speed • cost • safety • privacy • monitoring • maintainability</text><text x="600" y="638" text-anchor="middle" class="t">Architecture decisions should be explicit and traceable</text>
+<path d="M250 460 V520 H600 V540" class="line"/><path d="M600 460 V540" class="line"/><path d="M950 460 V520 H600 V540" class="line"/>
+<rect x="330" y="735" width="540" height="90" rx="18" class="q"/><text x="600" y="775" text-anchor="middle" class="h">Architecture output</text><text x="600" y="805" text-anchor="middle" class="t">A clear design showing layer responsibilities and trade-offs</text>
+<path d="M600 660 V735" class="line"/>
+</svg>
