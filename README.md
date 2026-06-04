@@ -147,13 +147,7 @@ Modern AI architecture is not only about choosing a model. It is about balancing
 5. **Make trade-offs explicit.** Cost, quality, latency, security, privacy, and safety should be visible architecture decisions.
 6. **Govern every layer.** AI governance is not a document at the end; it is a set of controls across the full stack.
 
----
 
-## Suggested repository description
-
-Use this as the GitHub repository description:
-
-> A practical OSI-inspired layered framework for understanding modern AI systems, from physical infrastructure to data, models, agents, applications, and governance.
 
 ---
 
