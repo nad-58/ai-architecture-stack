@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">OSI to AI Architecture Stack Comparison</title>
+<desc id="desc">A conceptual comparison between the OSI model and the AI Architecture Stack.</desc>
+<style>.t{font:700 44px Arial;fill:#0f172a}.h{font:700 24px Arial;fill:#0f172a}.s{font:18px Arial;fill:#334155}.osi{fill:#eff6ff;stroke:#2563eb;stroke-width:2}.ai{fill:#ecfdf5;stroke:#059669;stroke-width:2}.arrow{stroke:#64748b;stroke-width:2.5;marker-end:url(#a)}.note{font:16px Arial;fill:#475569}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9 Z" fill="#64748b"/></marker></defs>
+<rect width="1200" height="900" fill="white"/>
+<text x="600" y="65" text-anchor="middle" class="t">AI Architecture Stack Compared with OSI</text>
+<text x="600" y="105" text-anchor="middle" class="s">A conceptual mapping for layered thinking, not a formal equivalence</text>
+<text x="230" y="160" text-anchor="middle" class="h">OSI Model</text><text x="970" y="160" text-anchor="middle" class="h">AI Architecture Stack</text>
+<g transform="translate(80,190)">
+<rect class="osi" x="0" y="0" width="300" height="70" rx="12"/><text x="20" y="30" class="h">7. Application</text><text x="20" y="55" class="s">Network services to users</text>
+<rect class="osi" x="0" y="85" width="300" height="70" rx="12"/><text x="20" y="115" class="h">6. Presentation</text><text x="20" y="140" class="s">Format and representation</text>
+<rect class="osi" x="0" y="170" width="300" height="70" rx="12"/><text x="20" y="200" class="h">5. Session</text><text x="20" y="225" class="s">State and sessions</text>
+<rect class="osi" x="0" y="255" width="300" height="70" rx="12"/><text x="20" y="285" class="h">4. Transport</text><text x="20" y="310" class="s">Reliable delivery</text>
+<rect class="osi" x="0" y="340" width="300" height="70" rx="12"/><text x="20" y="370" class="h">3. Network</text><text x="20" y="395" class="s">Routing and addressing</text>
+<rect class="osi" x="0" y="425" width="300" height="70" rx="12"/><text x="20" y="455" class="h">2. Data Link</text><text x="20" y="480" class="s">Local transfer</text>
+<rect class="osi" x="0" y="510" width="300" height="70" rx="12"/><text x="20" y="540" class="h">1. Physical</text><text x="20" y="565" class="s">Signals and media</text>
+</g>
+<g transform="translate(820,190)">
+<rect class="ai" x="0" y="0" width="320" height="70" rx="12"/><text x="20" y="30" class="h">Application &amp; Experience</text><text x="20" y="55" class="s">Products, UI and value</text>
+<rect class="ai" x="0" y="85" width="320" height="70" rx="12"/><text x="20" y="115" class="h">Model &amp; Representation</text><text x="20" y="140" class="s">Tokens, embeddings, outputs</text>
+<rect class="ai" x="0" y="170" width="320" height="70" rx="12"/><text x="20" y="200" class="h">Orchestration &amp; Agents</text><text x="20" y="225" class="s">State, tools and workflow</text>
+<rect class="ai" x="0" y="255" width="320" height="70" rx="12"/><text x="20" y="285" class="h">Data &amp; Knowledge</text><text x="20" y="310" class="s">Retrieval and grounding</text>
+<rect class="ai" x="0" y="340" width="320" height="70" rx="12"/><text x="20" y="370" class="h">Compute Infrastructure</text><text x="20" y="395" class="s">Runtime and scaling</text>
+<rect class="ai" x="0" y="425" width="320" height="70" rx="12"/><text x="20" y="455" class="h">Chips &amp; Accelerators</text><text x="20" y="480" class="s">GPU, TPU, NPU, CPU</text>
+<rect class="ai" x="0" y="510" width="320" height="70" rx="12"/><text x="20" y="540" class="h">Physical Foundation</text><text x="20" y="565" class="s">Energy, cooling, devices</text>
+</g>
+<g>
+<line x1="390" y1="225" x2="810" y2="225" class="arrow"/><line x1="390" y1="310" x2="810" y2="310" class="arrow"/><line x1="390" y1="395" x2="810" y2="395" class="arrow"/><line x1="390" y1="480" x2="810" y2="480" class="arrow"/><line x1="390" y1="565" x2="810" y2="565" class="arrow"/><line x1="390" y1="650" x2="810" y2="650" class="arrow"/><line x1="390" y1="735" x2="810" y2="735" class="arrow"/>
+</g>
+<rect x="120" y="810" width="960" height="55" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="600" y="845" text-anchor="middle" class="note">Use the comparison to separate concerns: application, orchestration, model, data, infrastructure, hardware and physical resources.</text>
+</svg>
